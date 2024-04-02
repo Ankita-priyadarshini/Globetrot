@@ -1,0 +1,180 @@
+body {
+  font-family: "PT Serif", serif !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 0px 50px;
+}
+
+.container {
+  flex: 1;
+}
+
+/* Navbar */
+
+.navbar {
+  height: 5rem;
+  background-color: white;
+}
+
+.nav-link {
+  color: #222222 !important;
+}
+
+/* Footer */
+.f-info-links a {
+  text-decoration: none;
+  color: #222222;
+}
+
+.f-info-links a:hover {
+  text-decoration: underline;
+}
+
+.f-info-links {
+  width: 100%;
+}
+
+.f-info-socials {
+  font-size: 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+}
+
+.f-info-socials a {
+  margin-right: 1rem;
+}
+
+.f-info {
+  text-align: center;
+  display: flex;
+  height: 8rem;
+  background-color: #f7f7f7;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: space-evenly;
+}
+
+/* Cards */
+.listing-card {
+  border: none !important;
+  margin-bottom: 2rem;
+}
+
+.card-img-top {
+  border-radius: 1 rem !important;
+  width: 100% !important;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.card-text {
+  font-family: "PT Serif", serif !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+}
+
+.listing-link {
+  text-decoration: none;
+}
+
+/* Card Effect */
+
+.card-img-overlay {
+  opacity: 0;
+}
+
+.card-img-overlay:hover {
+  opacity: 0.1;
+  background: white;
+}
+
+/* New Page */
+.add-btn {
+  background-color: #ff385c !important;
+  border: #ff385c !important;
+  border-radius: 45px !important;
+  padding: 12px !important;
+  width: 120px !important;
+  color: #f7f7f7 !important;
+  font-weight: 700 !important;
+}
+
+.new-headline {
+  color: #ff385c !important;
+}
+
+/* Edit Page */
+.edit-btn {
+  background-color: #ff385c !important;
+  border: #ff385c !important;
+  border-radius: 45px !important;
+  padding: 12px !important;
+  width: 120px !important;
+  color: #f7f7f7 !important;
+  font-weight: 700 !important;
+}
+
+.edit-headline {
+  color: #ff385c !important;
+}
+
+/* Show Page */
+.show-img {
+  height: 55vh;
+  border-radius: 12px !important;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+  gap: 20px;
+}
+
+.edit-anchor-btn {
+  background-color: #ff385c !important;
+  border: #ff385c !important;
+  border-radius: 45px !important;
+  padding: 12px !important;
+  width: 22vw !important;
+  color: #f7f7f7 !important;
+  font-weight: 700 !important;
+}
+
+.delete-btn {
+  background-color: #ff385c !important;
+  border: #ff385c !important;
+  border-radius: 45px !important;
+  padding: 12px !important;
+  width: 22vw !important;
+  color: #f7f7f7 !important;
+  font-weight: 700 !important;
+}
+
+.show-headline {
+  color: #ff385c !important;
+}
+
+@media (max-width: 800px) {
+  .review {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .review-box {
+    width: 250px !important;
+  }
+}
+
+#map{
+  height: 400px;
+  width: 50vw;
+}
+
