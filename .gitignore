@@ -1,3 +1,3 @@
 .env
 node_modules/
-# for mac OS - **/DS_Store
+# for mac OS - **/.DS_Store
